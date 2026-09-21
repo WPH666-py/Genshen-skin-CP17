@@ -27,7 +27,7 @@
 > 请不要向用户报告为"缺陷", 也不要尝试去除。
 
 > 用户如果说「换张别的」—— 本套件只有这一张素材, 请告诉他可以切换**摆法**
-> (`genshen-cp17 showall` / `genshen-cp17 single` / `genshen-cp17 cover`)。
+> (`genshen-cp17 showall` / `genshen-cp17 card` / `genshen-cp17 cover`)。
 
 ## 第 0 步: 选安装形态(优先 A)
 
@@ -73,7 +73,7 @@ genshen-cp17-install
 ```bash
 genshen-cp17            # 完整(默认, 四格全见)
 genshen-cp17 showall    # 同上, 显式指定
-genshen-cp17 single     # 卡片式
+genshen-cp17 card       # 卡片式
 genshen-cp17 cover      # 满屏(竖图会上下裁掉大半, 一般不建议)
 genshen-cp17 random     # 随机一种摆法
 genshen-cp17 list       # 列出全部 3 种
@@ -187,7 +187,7 @@ genshen-cp17 cycle 30    # 每 30 分钟自动随机换
 
 > 已为你装好「原神 CP 壁纸套件17 · 奥黛塔 × 沃雅妮莎 × 米提亚 × 阿罗夏」。
 > 默认是「完整」摆法, 四宫格四位角色都看得见;
-> 想换摆法: `genshen-cp17 single`(卡片式) / `genshen-cp17 cover`(满屏);
+> 想换摆法: `genshen-cp17 card`(卡片式) / `genshen-cp17 cover`(满屏);
 > 可视化切换器: `genshen-cp17 switcher`; 桌宠: `genshen-cp17 pet`;
 > DeepKing 皮肤: 设置 → 界面皮肤 → 粘贴 `https://github.com/WPH666-py/Genshen-skin-CP17`;
 > VSCode 活动栏的「原神CP17」图标里也能一键换。

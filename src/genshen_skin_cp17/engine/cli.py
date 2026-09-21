@@ -4,10 +4,13 @@
 
 本套件只有一张素材(奥黛塔 × 沃雅妮莎 × 米提亚 × 阿罗夏), 提供三种摆法:
 
-  genshen-cp17                 # 默认: single1 卡片式(模糊背景 + 居中圆角卡片)
+  genshen-cp17                 # 默认: showall1 完整(整张不裁, 左右留边)
   genshen-cp17 cover           # 满屏: cover 裁切铺满整屏, 无边框
-  genshen-cp17 showall         # 完整: 等比放进纯色底, 一个像素都不裁
-  genshen-cp17 1               # 等价于 single1(兼容按张编号的写法)
+                               #   (竖图会上下裁掉大半, 一般不建议)
+  genshen-cp17 showall         # 完整: 等比放进纯色底, 一个像素都不裁(默认)
+  genshen-cp17 card            # 卡片式: 模糊背景 + 居中圆角卡片
+  genshen-cp17 single1         # 卡片式(按张编号的写法; 简写为 card)
+  genshen-cp17 1               # 等价于 single1
   genshen-cp17 list            # 列出所有可切换样式
   genshen-cp17 random          # 随机来一张
   genshen-cp17 all             # 生成全部样式到 ~/.genshen-cp17/wallpapers

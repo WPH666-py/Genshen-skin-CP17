@@ -67,9 +67,8 @@ Windows 用户也可以直接双击 `install.bat`。
 ```bash
 genshen-cp17               # 完整(默认, 四格全见)
 genshen-cp17 showall       # 同上, 显式指定
-genshen-cp17 single        # 卡片式
+genshen-cp17 card          # 卡片式
 genshen-cp17 cover         # 满屏(竖图会上下裁掉大半)
-genshen-cp17 card          # 等价 single
 genshen-cp17 random        # 随机一种摆法
 genshen-cp17 list          # 列出全部 3 种模式
 genshen-cp17 switcher      # 可视化切换器(预览 + 一键应用)
@@ -116,7 +115,7 @@ AGENTS.md                     给 AI 的自动安装指引
 ## ❓ 常见问题
 
 - **满屏模式为什么不好看**: 素材是竖图, 铺满 16:9 必须上下裁掉大半,
-  建议用默认的「完整」。想换摆法: `genshen-cp17 single` / `genshen-cp17 cover`。
+  建议用默认的「完整」。想换摆法: `genshen-cp17 card` / `genshen-cp17 cover`。
 - **壁纸尺寸**: 默认取主屏分辨率; 多显示器建议加 `--size 2560x1440`。
 - **命令找不到**: Scripts 目录不在 PATH, 改用 `python -m genshen_skin_cp17.engine.cli`。
 - **桌宠不透明**: 个别 Linux 桌面不支持透明色键, 会退化为白底卡片, 功能不受影响。
